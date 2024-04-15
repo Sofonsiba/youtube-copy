@@ -4,7 +4,7 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  height: 46px;
+  height: 56px;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgb(230, 230, 230);
@@ -28,24 +28,26 @@ button {
 }
 
 .hamburger {
-  width: 20px;
-  padding: 20px;
+  width: 24px;
   cursor: pointer;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .youtube-logo {
-  width: 76px;
+  width: 90px;
   cursor: pointer;
 }
 
 .center-object {
   flex: 1;
-  max-width: 400px;
+  max-width: 470px;
 }
 
 input {
-  height: 28px;
+  height: 40px;
   flex: 1;
+  box-sizing: border-box;
   margin-right: -1px;
   border: 1px solid rgb(197, 197, 197);
   padding-left: 10px;
@@ -64,12 +66,13 @@ input:focus {
 input::placeholder {
   color: gray;
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 button {
   position: relative;
-  width: 50px;
-  height: 31.6px;
+  width: 64px;
+  height: 40px;
   border: 1px solid rgb(197, 197, 197);
   background-color: rgb(245, 245, 245);
   transition: background-color 0.15s;
@@ -107,8 +110,8 @@ button:hover .tooltip,
 }
 
 .voice-button  {
-  width: 31px;
-  height: 31px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: rgb(245, 245, 245);
   margin-left: 10px;
@@ -117,14 +120,14 @@ button:hover .tooltip,
 }
 
 .right-object {
-  margin-right: 20px;
-  gap: 16px;
+  margin-right: 24px;
+  gap: 24px;
   flex-shrink: 0;
 }
 
 img[alt="user-photo"] {
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
@@ -150,5 +153,5 @@ img[alt="user-photo"] {
 }
 
 header img  {
-  width: 20px;
+  width: 24px;
 }
