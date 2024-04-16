@@ -12,7 +12,7 @@ main {
   margin-bottom: 16px;
 }
 
-.video-container > img {
+.video-container  img {
   width: 100%;
   cursor: pointer;
 }
@@ -22,7 +22,7 @@ main {
   padding-top: 10px;
 }
 
-.channel-picture > img {
+.channel-picture  img {
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -51,4 +51,58 @@ main {
 .viewers-count {
   font-size: 12px;
   color: gray;
+}
+
+.video-header > a {
+  text-decoration: none;
+  color: black;
+}
+
+.channel-picture {
+  position: relative;
+}
+
+.channel-picture:hover .tooltip-channel {
+  opacity: 1;
+}
+
+.tooltip-channel {
+  opacity: 0;
+  position: absolute;
+  bottom: -60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 240px;
+  pointer-events: none;
+  background-color: white;
+  padding: 12px 12px;
+  border-radius: 6px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.2s;
+}
+
+.tooltip-channel-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 14px;
+}
+
+.tooltip-channel-description > div {
+  font-weight: bold;
+}
+
+.tooltip-channel-description > :nth-child(2) {
+  color: gray;
+  font-weight: initial;
+  margin-top: 6px;
+}
+
+.tooltip-channel > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 16px;
 }
