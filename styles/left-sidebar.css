@@ -35,3 +35,31 @@ nav {
 .nav-description {
   font-size: 10px;
 }
+
+@media (min-width: 1200.1px) {
+  nav {
+    width: 200px;
+  }
+
+  .left-section-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 46px;
+  }
+
+  .left-section-container > img {
+    margin-bottom: 0;
+    margin-left: 24px;
+    margin-right: 20px;
+  }
+
+  .nav-description {
+    font-size: 16px;
+  }
+
+  body {
+    padding-left: 200px;
+  }
+
+}
