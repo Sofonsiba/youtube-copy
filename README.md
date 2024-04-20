@@ -1,2 +1,2 @@
 # youtube-copy
-This repository is for praktice of my knowlidge of HTML and CSS
+This repository is for praсtice of my knowlidge of HTML and CSS
